@@ -2,8 +2,6 @@ import logo from './images/logo.png'
 import header from './images/header.JPG'
 import React, { useState, useEffect } from 'react';
 import './index.css';
-
-
 import { createClient } from '@supabase/supabase-js';
 import axios from 'axios'; 
 import { supabase } from './supabaseClient';
