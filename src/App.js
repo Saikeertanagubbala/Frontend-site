@@ -36,7 +36,7 @@ function App() {
 
   const fetchMakeupProducts = async () => {
     try {
-      const response = await axios.get('http://makeup-api.herokuapp.com/api/v1/products.json');
+      const response = await axios.get('https://makeup-api.herokuapp.com/api/v1/products.json');
       setMakeupProducts(response.data);
     } catch (error) {
       console.error('Error fetching makeup products:', error.message);
