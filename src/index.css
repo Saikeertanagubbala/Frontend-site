@@ -1,38 +1,25 @@
-.header {
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  background-color: #ab4a4a;
-  border-bottom: 1px solid #ddd;
-}
+@import url('https://fonts.googleapis.com/css2?family=Imbue:opsz@10..100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-.logo img {
-  width: 40px;
+.imbue-title {
+  font-family: 'Imbue', serif;
 }
+.alice {
+    font-family: "Alice", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
 
-.title h1 {
-  font-size: 24px;
-  margin: 0;
-}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F7F4F0;
+  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-.search-bar {
-  display: flex;
-  align-items: center;
-}
-
-.search-bar input {
-  margin-right: 10px;
-  padding: 8px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-}
-
-.search-bar button {
-  padding: 8px 12px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
